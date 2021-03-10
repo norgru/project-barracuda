@@ -31,4 +31,21 @@ td, th{
     background-color: #333;
     color: #fff;
 
+    border: 5px red;
+
+    /* Same as above
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    */
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+
+}
+
+.container{
+    width: 70%;
+    margin: auto;
 }
